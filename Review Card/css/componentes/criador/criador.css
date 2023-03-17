@@ -1,0 +1,25 @@
+.img-avatar {
+    width: 28px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.criador {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.criador p {
+    color: hsl(215, 26%, 60%);
+}
+
+.nome-criador {
+    cursor: pointer;
+}
+
+.nome-criador:hover {
+    color: hsl(179, 84%, 54%);
+}

@@ -1,0 +1,29 @@
+.info-adicionais {
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 0;
+}
+
+.informacao {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.informacao img {
+    max-width: 13px;
+    max-height: 13px;
+}
+
+.informacao-texto {
+    font-size: 13px;
+}
+
+#valor {
+    color: hsl(179, 84%, 54%);
+    font-weight: 600;
+}
+
+#tempo-restante {
+    color: hsl(215, 26%, 60%);
+}
